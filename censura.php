@@ -8,5 +8,10 @@
 </head>
 <body>
   <h1>Censura una parola</h1>
+  <?php 
+    $paragrafo = $_POST['paragraph'];
+    echo $paragrafo;
+    echo strlen($paragrafo);
+  ?>
 </body>
 </html>
