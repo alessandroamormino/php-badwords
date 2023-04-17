@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,15 @@
   <title>PHP Bad Words</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <div class="centered">
     <h1>PHP Bad Words</h1>
     <form action="censura.php" method="POST">
       <div class="top">
         <label for="paragraph">Paragrafo da compilare:</label>
-        <textarea name="paragraph" id="paragraph" cols="50" rows="6" placeholder="Inserisci una frase" required></textarea>
+        <textarea name="paragraph" id="paragraph" cols="50" rows="6" placeholder="Inserisci una frase"
+          required></textarea>
       </div>
       <div class="bottom">
         <label for="censur">Parola da censurare:</label>
@@ -23,4 +26,5 @@
     </form>
   </div>
 </body>
+
 </html>
