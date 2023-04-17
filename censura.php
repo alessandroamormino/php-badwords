@@ -10,8 +10,10 @@
   <h1>Censura una parola</h1>
   <?php 
     $paragrafo = $_POST['paragraph'];
-    echo $paragrafo;
-    echo strlen($paragrafo);
+    $parolaCensurata = $_POST['censur'];
   ?>
+  <h3>Paragrafo completo:</h3>
+  <p><i><?php echo $paragrafo; ?></i></p>
+  <span>Lunghezza: <?php echo strlen($paragrafo); ?> caratteri</span>
 </body>
 </html>
