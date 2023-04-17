@@ -10,9 +10,9 @@
   <h1>PHP Bad Words</h1>
   <form action="censura.php" method="POST">
     <label for="paragraph">Paragrafo da compilare:</label>
-    <textarea name="paragraph" id="paragraph" cols="30" rows="10" placeholder="Inserisci una frase"></textarea>
+    <textarea name="paragraph" id="paragraph" cols="30" rows="10" placeholder="Inserisci una frase" required></textarea>
     <label for="censur">Parola da censurare:</label>
-    <input type="text" name="censur" id="censur" placeholder="Inserisci una parola">
+    <input type="text" name="censur" id="censur" placeholder="Inserisci una parola" required>
     <button type="submit">Invia</button>
   </form>
 </body>
