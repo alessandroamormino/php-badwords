@@ -11,9 +11,13 @@
   <?php 
     $paragrafo = $_POST['paragraph'];
     $parolaCensurata = $_POST['censur'];
+    $paragrafoCensurato = str_ireplace($parolaCensurata, '***',$paragrafo);
   ?>
   <h3>Paragrafo completo:</h3>
   <p><i><?php echo $paragrafo; ?></i></p>
   <span>Lunghezza: <?php echo strlen($paragrafo); ?> caratteri</span>
+  <h3>Paragrafo censurato:</h3>
+  <p><i><?php echo $paragrafoCensurato; ?></i></p>
+  <span>Nuova lunghezza: <?php echo strlen($paragrafoCensurato); ?> caratteri</span>
 </body>
 </html>
